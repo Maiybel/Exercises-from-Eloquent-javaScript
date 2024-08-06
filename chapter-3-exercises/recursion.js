@@ -9,18 +9,16 @@
 // function should accept a single parameter (a positive, whole number) and return
 // a Boolean.
 // Test it on 50 and 75. See how it behaves on -1. Why? Can you think of a
-// way to fix this?
-
+// way to fix this
 
 function isEven(wholeNumber) {
-    const number = Math.abs(wholeNumber)
-    if (number === 0) {
-        return true;
-    } else if (number === 1) {
-        return false;
-    } else {
-        return isEven(number - 2);
-    }
-
+  const number = Math.abs(wholeNumber);
+  if (number === 0) {
+    return true;
+  } else if (number === 1) {
+    return false;
+  } else {
+    return isEven(number - 2);
+  }
 }
 console.log(isEven(-1));
