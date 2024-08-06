@@ -3,7 +3,7 @@
 // min that takes two arguments and returns their minimum.
 
 const min = function (a, b) {
-    return Math.min(a, b);
-}
+  return Math.min(a, b);
+};
 
 console.log(min(56, 42));
