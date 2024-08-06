@@ -21,4 +21,3 @@ function isEven(wholeNumber) {
     return isEven(number - 2);
   }
 }
-console.log(isEven(-1));
